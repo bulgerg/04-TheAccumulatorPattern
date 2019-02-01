@@ -306,6 +306,8 @@ def run_test_draw_lines_from_rectangles():
 
 
 def draw_lines_from_rectangles(rectangle1, rectangle2, n, window):
+    rectangle1.attach_to(window)
+    rectangle2.attach_to(window)
     p1 = rectangle1.get_center()
     p2 = rectangle2.get_center()
     R1_color = rectangle1.outline_color
