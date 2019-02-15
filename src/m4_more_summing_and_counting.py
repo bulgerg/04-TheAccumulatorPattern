@@ -16,6 +16,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
+import rosegraphics as rg
 import builtins  # Never necessary, but here for pedagogical reasons
 
 
